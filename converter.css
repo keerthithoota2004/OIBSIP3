@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container {
+    background-image: url('temp.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+}
+.heading{
+    color:#ba110c;
+    font-family:"Bree Serif";
+    font-weight:bold;
+    font-size:32px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.converter {
+    margin-top: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    width: 600px;
+  
+}
+.converter input[type="number"] {
+    width: 208px;
+    height:28px;
+    padding: 5px;
+    border-radius:10px;
+    background-color:ivory;
+    border-color:transparent;
+}
+.converter select {
+    width:158px;
+    height:28px;
+    padding: 5px;
+    border-radius:10px;
+    background-color:ivory;
+    border-color:transparent;
+}
+.converter button {
+    padding: 5px 10px;
+    margin-top: 25px;
+    border-radius:10px;
+    border-color:transparent;
+    background-color:#1434A4;
+    color:ivory;
+    font-family:"Consolas";
+}
+.text{
+     color:navy;
+    font-family:"Consolas";
+    font-weight:600;
+    font-size:20px;
+}
+.txt{
+    color:black;
+    font-family:"Consolas";
+    font-weight:500;
+    font-size:15px;
+}
+.res{
+    color:ivory;
+    font-family:"Consolas";
+    font-weight:500;
+    font-size:18px;
+}
